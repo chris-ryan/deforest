@@ -1,0 +1,25 @@
+{
+  "name": "deforest",
+  "version": "1.0.0",
+  "description": "A script to filter the Amazon IP JSON feed",
+  "main": "deforest.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chris-ryan/deforest.git"
+  },
+  "keywords": [
+    "Amazon",
+    "IP",
+    "JSON",
+    "filter"
+  ],
+  "author": "Chris Ryan <chris@ryanweb.id.au> (https://github.com/chris-ryan)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chris-ryan/deforest/issues"
+  },
+  "homepage": "https://github.com/chris-ryan/deforest#readme"
+}
