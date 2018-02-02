@@ -1,6 +1,6 @@
 # deforest - an Amazon IP Region Parser
 
-Filters the Amazon IP JSON feed by region
+A Node script that filters the Amazon IP JSON feed
 
 ## Installation
 
@@ -11,8 +11,11 @@ Node.js >= v6.4
 
 You can download the script either via npm or git:
 
-- ``` npm install deforest```
-- ``` git clone https://github.com/chris-ryan/deforest ```
+``` npm install deforest```
+
+or
+
+``` git clone https://github.com/chris-ryan/deforest ```
 
 then make the script executable:
 ```
@@ -25,12 +28,16 @@ chmod +x deforest.js
 Enter the command: deforest.js followed by optional arguments to filter the JSON results.
 
 ``` ./deforest.js [filterType filterValue] ```
+
 filter types:
---region
---service
+
+* --region
+* --service
 
 example:
-``` `deforest.js --region ap-northeast-1 --service S3 ```
+``` deforest.js --region ap-northeast-1 --service S3 ```
+
+> NOTE: This script writes to process.stdout so you can pipe it into other commands.
 
 Amazon regions:
 
