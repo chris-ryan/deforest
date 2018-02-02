@@ -11,7 +11,7 @@ Node.js >= v6.4
 
 You can download the script either via npm or git:
 
-``` npm install deforest```
+``` npm install deforest-cli```
 
 or
 
