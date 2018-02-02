@@ -1,7 +1,7 @@
 {
-  "name": "deforest",
+  "name": "deforest-cli",
   "version": "1.0.0",
-  "description": "A script to filter the Amazon IP JSON feed",
+  "description": "A cli script to filter the Amazon IP JSON feed",
   "main": "deforest.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
